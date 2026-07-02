@@ -6,3 +6,4 @@ Use three scripts that work together to create a report on the status of a file 
 - `create-pipeline-listing.sh` is a bash script that lists three (or more) directories on a Linux machine and creates a file with the names and modification times of the files in the processing queue.
 - `sync_check.py` is a Python script that compares the master list (the Windows CSV file) with the list of files in the queue and returns information about the status of each file and, if applicable, an overview of missing or orphaned files.
  
+For e detailed README see [README_Processing_Pipeline.md](resources/README_Processing_Pipeline.md)
